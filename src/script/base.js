@@ -631,8 +631,8 @@ function Base() {
 
         pvHtml += "<div><span id='blogRunTimeSpan'></span><span class='my-face'>ღゝ◡╹)ノ♡</span></div>" +
             '<div id="blogrollInfo"></div>' +
-            '<div id="cnzzInfo"></div>' +
-            '<div id="themeInfo"></div>';
+            '<div id="cnzzInfo"></div>' ;
+            //'<div id="themeInfo"></div>';
 
         switch (parseInt(window.cnblogsConfig.footerStyle)) {
             case 1:
