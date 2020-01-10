@@ -646,7 +646,7 @@ function Base() {
         }
 
         setBlogroll();
-        setTheme();
+        //setTheme();
         window.setInterval( setRunTime, 500 );
         timeIds.setCnzzTId = window.setInterval( setCnzz, 1000 );
 
